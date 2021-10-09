@@ -12,3 +12,20 @@ body{
 .logo{
     text-align: center;
 }
+
+.colored-paragraph{
+    background-color: rgb(236, 252, 21);
+}
+
+.banner > img{
+    width: 100%;
+}
+
+.cells img{
+    width: 50%;
+}
+
+a:link, a:visited{
+    color: greenyellow;
+    text-decoration: none;
+}
