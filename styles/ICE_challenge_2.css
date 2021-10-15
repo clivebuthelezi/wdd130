@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+    margin: 0%;
+}
+img{
+    max-width: 100%;
+}
+
+.pictures img{
+    border-radius: 50%;
+    border: 10px;
+    border-style: solid;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin-right: 100px;
+
+}
+
+.circles img{
+    width: 100%;
+    padding-bottom: 30px;
+}

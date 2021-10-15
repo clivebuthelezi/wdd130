@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 body{ 
     margin: 0;
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cells{
@@ -13,8 +16,15 @@ body{
     text-align: center;
 }
 
+h1,h2,h3,h4,h5,h6{
+    font-family: "Rock Salt",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .colored-paragraph{
-    background-color: rgb(236, 252, 21);
+    background-color: orange;
+    width: 100%;
+    padding: 1em 2em;
+    display: inline-block;
 }
 
 .banner > img{
@@ -28,4 +38,17 @@ body{
 a:link, a:visited{
     color: greenyellow;
     text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.cells section{
+    width: 24%;
+    display: inline-block;
 }
